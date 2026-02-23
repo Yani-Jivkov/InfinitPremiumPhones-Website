@@ -8,6 +8,7 @@ The website demonstrates modern UI design, responsive layout, animations, and in
 
 ## 🎯 Purpose
 
+
 The main goal of this project is to create a professional and visually appealing product showcase platform that can be extended into a full e-commerce system in the future.
 
 ## 🛠 Technologies Used
@@ -21,6 +22,7 @@ The main goal of this project is to create a professional and visually appealing
 
 ## 🤖 AI-Assisted Development
 
+
 This project was developed with the assistance of GitHub Copilot. AI was used for:
 - Layout and UI design
 - Responsive CSS structure
@@ -29,6 +31,7 @@ This project was developed with the assistance of GitHub Copilot. AI was used fo
 - Improving user experience
 
 ## 📱 Features
+
 
 - Fully responsive design
 - Premium modern UI
@@ -39,6 +42,7 @@ This project was developed with the assistance of GitHub Copilot. AI was used fo
 - Mobile-first optimization
 
 ## 🚀 Future Improvements
+
 
 - Backend integration
 - Ordering system
