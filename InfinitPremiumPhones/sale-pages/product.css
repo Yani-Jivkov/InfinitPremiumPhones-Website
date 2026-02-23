@@ -1,0 +1,256 @@
+.product-page{
+    display:grid;
+    grid-template-columns:
+    1fr 1fr;gap:24px;
+    margin-top:24px;
+    color:#333
+}
+
+.product-gallery{
+    background:#fff;
+    padding:12px;
+    border-radius:12px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    align-items:center;
+    justify-content:center
+}
+
+.prod-img{
+    width:100%;
+    max-width:520px;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.12)
+}
+
+.product-info{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    font-size:1.05rem;
+    line-height:1.6;
+}
+
+.product-info h3{
+    margin-top:0;
+    font-size:1.3rem;
+}
+
+.product-info ul{
+    list-style:disc;
+    margin-left:18px;
+    font-size:1.05rem;
+}
+
+.product-info p{
+    font-size:1.05rem;
+}
+
+.order{
+    font-weight:700;
+    margin-top:16px;
+    font-size:1.05rem;
+}
+.order-info{
+    margin-top:8px;
+    color:#555;
+    font-size:1.02rem;
+}
+
+.more-info{
+    margin-top:14px;
+    padding-top:12px;
+    border-top:1px solid #eee;
+    color:#333;
+    font-size:1.02rem;
+    line-height:1.5;
+}
+
+.buy-btn{
+    display:block;
+    width:100%;
+    margin-top:16px;
+    padding:12px 14px;
+    text-align:center;
+    font-size:1.05rem;
+    text-decoration:none;
+}
+
+.back-list{
+    display:block;
+    margin:24px auto 0;
+    max-width:420px;
+    background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+    color:#fff;
+    text-align:center;
+    padding:14px 18px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:700;
+    font-size:1.05rem;
+}
+
+@media(max-width:1024px){
+    .product-page{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+    .prod-img{max-width:100%}
+}
+
+@media(max-width:768px){
+    .product-page{
+        grid-template-columns:1fr;
+        gap:18px;
+        margin-top:18px;
+    }
+
+    .product-gallery{
+        padding:10px;
+        gap:10px;
+    }
+
+    .prod-img{
+        max-width:100%;
+        border-radius:8px;
+    }
+
+    .product-info{
+        padding:16px;
+        font-size:1rem;
+        line-height:1.5;
+    }
+
+    .product-info h3{
+        font-size:1.2rem;
+        margin-bottom:12px;
+    }
+
+    .product-info ul{
+        font-size:1rem;
+        margin-left:16px;
+    }
+
+    .product-info p{
+        font-size:1rem;
+    }
+
+    .order{
+        margin-top:14px;
+        font-size:1rem;
+    }
+
+    .order-info{
+        font-size:0.95rem;
+    }
+
+    .more-info{
+        margin-top:12px;
+        padding-top:10px;
+        font-size:0.95rem;
+    }
+
+    .buy-btn{
+        padding:11px 12px;
+        font-size:1rem;
+        margin-top:14px;
+    }
+
+    .back-list{
+        max-width:360px;
+        padding:12px 16px;
+        font-size:1rem;
+        margin:20px auto 0;
+    }
+}
+
+@media(max-width:480px){
+    body{
+        padding:8px;
+    }
+
+    .product-page{
+        gap:14px;
+        margin-top:16px;
+    }
+
+    .product-gallery{
+        padding:8px;
+        gap:8px;
+        background:#fff;
+    }
+
+    .prod-img{
+        max-width:100%;
+        border-radius:8px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .product-info{
+        padding:14px;
+        font-size:0.95rem;
+        line-height:1.5;
+    }
+
+    .product-info h3{
+        font-size:1.1rem;
+        margin-bottom:10px;
+        margin-top:0;
+    }
+
+    .product-info ul{
+        font-size:0.95rem;
+        margin-left:14px;
+        padding:0;
+    }
+
+    .product-info li{
+        margin-bottom:6px;
+    }
+
+    .product-info p{
+        font-size:0.95rem;
+        margin:8px 0;
+    }
+
+    .order{
+        margin-top:12px;
+        font-size:0.95rem;
+    }
+
+    .order-info{
+        font-size:0.9rem;
+        margin-top:6px;
+    }
+
+    .more-info{
+        margin-top:10px;
+        padding-top:10px;
+        font-size:0.9rem;
+        line-height:1.4;
+    }
+
+    .more-info p{
+        margin:6px 0;
+    }
+
+    .buy-btn{
+        display:block;
+        width:100%;
+        padding:10px 12px;
+        font-size:0.95rem;
+        margin-top:12px;
+        border-radius:8px;
+    }
+
+    .back-list{
+        display:block;
+        width:calc(100% - 20px);
+        max-width:100%;
+        margin:18px 10px 0;
+        padding:11px 14px;
+        font-size:0.95rem;
+        border-radius:8px;
+    }
+}
